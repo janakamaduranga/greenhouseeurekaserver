@@ -1,4 +1,4 @@
-package com.shopping.cart.eureka.server;
+package com.green.house;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class ShoppingCartEurekaServerApplication {
+public class GreenHouseEurekaServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShoppingCartEurekaServerApplication.class, args);
+		SpringApplication.run(GreenHouseEurekaServerApplication.class, args);
 	}
 
 }
